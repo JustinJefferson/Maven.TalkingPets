@@ -76,6 +76,7 @@ public class AskForPets {
                     pets.get(i).getName(),
                     pets.get(i).getSpecies()
             );
+            System.out.printf("%s says %s!\n", pets.get(i).getName(), pets.get(i).speak());
         }
     }
 }
