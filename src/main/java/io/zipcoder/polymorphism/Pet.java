@@ -17,4 +17,6 @@ public abstract class Pet {
     }
 
     abstract String speak();
+
+    abstract String getSpecies();
 }

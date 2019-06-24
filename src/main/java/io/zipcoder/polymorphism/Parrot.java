@@ -14,4 +14,8 @@ public class Parrot extends Pet {
         return "Squaawk";
     }
 
+    public String getSpecies() {
+        return "Parrot";
+    }
+
 }
